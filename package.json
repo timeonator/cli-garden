@@ -1,0 +1,43 @@
+{
+  "name": "cli-garden",
+  "version": "1.0.0",
+  "description": "Node.js command line interface (CLI) code garden.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timeonator/cli-garden.git"
+  },
+  "keywords": [
+    "Node.js",
+    "CLI",
+    "code-garden"
+  ],
+  "author": "Robert Gifford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timeonator/cli-garden/issues"
+  },
+  "homepage": "https://github.com/timeonator/cli-garden#readme",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^18.1.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.5.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "path": "^0.12.7",
+    "simple-git": "^2.34.2",
+    "touch": "^3.1.0"
+  }
+}
