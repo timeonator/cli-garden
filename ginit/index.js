@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
 const files=require('../lib/files');
-const github = require('../lib/github');
+// const github = require('../lib/github');
 const fetch = require('node-fetch');
 
  const token = process.env.GIT_TOKEN
